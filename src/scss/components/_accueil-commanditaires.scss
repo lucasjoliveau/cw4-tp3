@@ -1,0 +1,20 @@
+.commanditaires {
+  h4 {
+    color: $color-accent-reg;
+    text-align: center;
+  }
+
+  .liste-commanditaires {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      margin: 27px 20px;
+    }
+
+  }
+
+}

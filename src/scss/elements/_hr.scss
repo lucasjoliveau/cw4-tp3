@@ -1,8 +1,7 @@
 hr{
   border: 0;
   height: 4px;
-  background: $neutre-4;
-  margin-top: 40px;
+  background: $color-principale-fonce;
 }
 
 hr.hr-thin{
@@ -11,4 +10,8 @@ hr.hr-thin{
 
 hr.hr-large{
   height: 8px;
+}
+
+.hr-thin-court {
+  width: 145px;
 }

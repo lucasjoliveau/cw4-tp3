@@ -1,0 +1,49 @@
+footer {
+  .footer-logo {
+    margin: 30px auto;
+    display: flex;
+    width: auto;
+  }
+
+  .badges {
+    display: flex;
+    justify-content: center;
+  }
+
+  .badge {
+    width: 165px;
+    height: 51px;
+    margin: 7px;
+  }
+
+  ul {
+    li {
+      font-weight: $fw-light;
+      list-style-image: url("../images/i_valider.svg");
+      margin: 10px 0;
+    }
+  }
+
+  .bas-footer {
+    padding: 16px;
+    background-color: $color-principale-fonce;
+    .texte-gras-footer {
+      font-weight: $fw-medium;
+      text-align: center;
+    }
+
+    .petit-texte {
+      font-size: $ff-small;
+      line-height: 16px;
+      margin: 0;
+    }
+
+    .petit-texte-2 {
+      font-size: 12px;
+      text-align: center;
+    }
+
+  }
+
+
+}

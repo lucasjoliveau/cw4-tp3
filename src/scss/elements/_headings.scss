@@ -33,3 +33,14 @@ h5 {
   font-family: $ff-title;
   font-weight: $fw-regular;
 }
+
+h6 {
+  color: $neutre-2;
+  text-transform: uppercase;
+  font-family: $ff-normal;
+  font-style: $ff-normal;
+  font-weight: $fw-regular;
+  font-size: $fz-normal;
+  line-height: $lh-normal;
+  margin: 15px 0;
+}
