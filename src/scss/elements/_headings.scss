@@ -24,3 +24,12 @@ h4{
   font-size: $fz-h4;
   line-height: $lh-medium;
 }
+
+h5 {
+  font-size: $fz-h5;
+  line-height: $lh-normal;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-family: $ff-title;
+  font-weight: $fw-regular;
+}

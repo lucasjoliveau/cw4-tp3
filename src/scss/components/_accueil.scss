@@ -1,0 +1,47 @@
+.hero {
+  background-image: url("../images/bg_hero.png");
+  padding: 50px;
+
+  h5 {
+    color: $neutre-6;
+    margin-top: 11px;
+    text-align: center;
+  }
+
+  p {
+    color: $neutre-6;
+    font-weight: $fw-light;
+    text-align: center;
+  }
+
+  .btn {
+    color: $neutre-6 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-family: $ff-title;
+
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    background-color: $color-accent-reg;
+    border-radius: 6px;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    a {
+      display: block;
+      margin: 12px;
+
+      &:hover {
+        border-bottom: none;
+      }
+    }
+  }
+}
