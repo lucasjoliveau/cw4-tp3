@@ -4,7 +4,7 @@ $neutre-1: #2E3741;
 $neutre-2: #3B4653;
 $neutre-3: #516071;
 $neutre-4: #949393;
-$neutre-6: #FFFFFF;
+$neutre-6: #ffffff;
 // Couleurs principales
 $color-principale: #F9F7F6;
 $color-principale-fonce: #EBE9E8;
@@ -32,10 +32,10 @@ $color-link-focus: $color-complementaire;
 
 
 // Forms colors
-$base-input-placeholder-color:                  #999 ;
-$base-input-color:                              #000 ;
-$base-input-background-color:                   #fff ;
+$base-input-placeholder-color:                  $neutre-4 ;
+$base-input-color:                              $neutre-1 ;
+$base-input-background-color:                   $neutre-6 ;
 $base-input-background-focus-color:             #fff ;
-$base-input-border-color:                       #ccc ;
-$base-input-border-focus-color:                 #000 ;
+$base-input-border-color:                       $color-principale-fonce ;
+$base-input-border-focus-color:                 $neutre-4 ;
 $base-select-box-height: 36px;

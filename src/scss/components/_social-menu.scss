@@ -1,0 +1,15 @@
+.social-menu {
+  margin-top: 80px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  a {
+    display: block;
+    margin: 12px;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}

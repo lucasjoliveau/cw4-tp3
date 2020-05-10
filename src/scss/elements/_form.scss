@@ -21,8 +21,9 @@ textarea {
 [type="date"],
 [type="search"] {
   height: $base-input-height;
-  padding: 8px;
+  padding: 8px 15px;
   background-color: $base-input-background-color;
+  font-weight: lighter;
   border: $base-input-border-size solid $base-input-border-color;
   border-radius: $base-input-border-radius;
   -webkit-appearance: none;

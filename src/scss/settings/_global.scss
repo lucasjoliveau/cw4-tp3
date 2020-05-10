@@ -9,3 +9,22 @@ p {
   padding: 0;
   box-sizing: border-box;
 }
+
+.btn {
+  color: $neutre-6 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-family: $ff-title;
+
+  display: flex;
+  justify-content: center;
+  padding: 15px 30px;
+  background-color: $color-accent-reg;
+  border-radius: 6px;
+
+  margin: 36px 0 36px;
+
+  &:hover {
+    border-bottom: none;
+  }
+}

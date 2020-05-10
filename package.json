@@ -24,5 +24,9 @@
     "gulp-strip-debug": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "gulp-uglify-es": "^2.0.0",
+    "hamburgers": "^1.1.3"
   }
 }

@@ -4,12 +4,14 @@ const newer = require('gulp-newer');                  // https://www.npmjs.com/p
 const imagemin = require('gulp-imagemin');            // https://www.npmjs.com/package/gulp-imagemin
 const htmlclean = require('gulp-htmlclean');          // https://www.npmjs.com/package/gulp-htmlclean
 const stripdebug = require('gulp-strip-debug');       // https://www.npmjs.com/package/gulp-strip-debug
-const uglify = require('gulp-uglify');                // https://www.npmjs.com/package/gulp-uglify
+// const uglify = require('gulp-uglify');                // https://www.npmjs.com/package/gulp-uglify
+const uglify = require('gulp-uglify-es').default;               // https://www.npmjs.com/package/gulp-uglify
 const sourcemaps = require('gulp-sourcemaps');        // https://www.npmjs.com/package/gulp-sourcemaps
 const sass = require('gulp-sass');                    // https://www.npmjs.com/package/gulp-sass
 const postcss = require('gulp-postcss');              // https://github.com/postcss/gulp-postcss
 const autoprefixer = require('autoprefixer');         //https://www.npmjs.com/package/autoprefixer
 const cssnano = require('cssnano');                   // https://www.npmjs.com/package/cssnano
+
 
 const folder = {
     src: 'src/',
