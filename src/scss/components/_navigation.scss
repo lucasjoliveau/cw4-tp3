@@ -2,6 +2,8 @@ nav {
   height: 55px;
   background: $neutre-6;
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.15);
+  z-index: 30;
+
 
   li {
     list-style: none;
@@ -23,10 +25,16 @@ nav {
     text-decoration: none;
     font-size: 16px;
   }
+  .nav-links.open {
+    margin: 0;
+  }
+
 }
 
 .nav-logo {
-  z-index: 300 !important;
+  z-index: 30 !important;
+  margin: 15px auto;
+  display: flex;
 }
 
 .recherche {
