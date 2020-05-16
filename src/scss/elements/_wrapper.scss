@@ -1,4 +1,5 @@
 .wrapper{
+  width: 343px;
   max-width: $max-width;
   margin: 0 auto;
 }
@@ -12,4 +13,10 @@
 
 .grid-center{
   grid-column: 2/3;
+}
+
+@media (min-width: $vw-medium) {
+  .wrapper {
+    width: $max-width;
+  }
 }

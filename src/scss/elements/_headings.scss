@@ -26,12 +26,10 @@ h4{
 }
 
 h5 {
-  font-size: $fz-h5;
-  line-height: $lh-normal;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
   font-family: $ff-title;
-  font-weight: $fw-regular;
+  font-weight: 500;
+  font-size: rem(36);
+  line-height: rem(54);
 }
 
 h6 {
