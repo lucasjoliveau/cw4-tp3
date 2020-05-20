@@ -1,0 +1,33 @@
+.trier {
+  display: flex;
+  img {
+    width: 23px;
+    height: 15px;
+    margin-right: 10px;
+  }
+
+  ul {
+    display: flex;
+      list-style: none;
+
+    li {
+      margin: 0;
+      padding: 0;
+      color: $neutre-4;
+    }
+
+    li::before {
+      content: "|";
+      padding: 0 5px;
+    }
+
+    li:first-child:before {
+      content: " ";
+      padding: 0 3px;
+    }
+
+    li:first-child {
+      text-decoration: underline;
+    }
+  }
+}
