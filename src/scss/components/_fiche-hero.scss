@@ -1,0 +1,39 @@
+.hero.hero-fiche {
+  background-image: url("../images/bg_hero_invite.png");
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 130vh;
+  align-items: center;
+
+  .img-artiste {
+    border-radius: 19px;
+    width: auto;
+    margin-top: -136px;
+  }
+
+  h4 {
+    font-weight: 500;
+    color: $neutre-6;
+  }
+
+  h6 {
+    margin: 11px 0 17px;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  a {
+    color: $neutre-6;
+    text-decoration: underline;
+  }
+
+  .social-menu {
+    margin: 0;
+  }
+
+}
