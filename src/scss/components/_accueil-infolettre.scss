@@ -1,0 +1,33 @@
+.infolettre {
+  background-color: $neutre-1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 0 96px;
+
+  h3 {
+    color: $neutre-6;
+    font-weight: normal;
+  }
+  p {
+    color: $neutre-6;
+  }
+
+  input {
+    margin: 72px 0;
+    color: $neutre-6;
+    width: 254px;
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #FFFFFF;
+
+    &:hover {
+      background: none;
+      color: $neutre-6;
+      border-color: #FFFFFF;
+    }
+
+  }
+}

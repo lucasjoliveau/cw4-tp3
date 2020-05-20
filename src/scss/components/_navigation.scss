@@ -8,7 +8,14 @@ nav {
   li {
     list-style: none;
     text-align: center;
+    margin: 14px 0;
   }
+
+  input {
+    width: 290px;
+    padding: 8px 8px 8px 40px !important;
+  }
+
 }
 
 .nav-links {
@@ -28,7 +35,6 @@ nav {
   .nav-links.open {
     margin: 0;
   }
-
 }
 
 .nav-logo {
@@ -41,6 +47,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 40px 0;
+}
+
+.icone-recherche img {
+  position: relative;
+  width: auto;
+  left: 35px;
+  top: 5px;
 }
 
 
@@ -74,29 +88,17 @@ nav {
     clip-path: circle(1px at 90% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
-    margin-top: 10px;
+    margin-top: -1px;
   }
   .nav-links.open {
     clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
-    margin-top: 10px;
+    margin-top: -1px;
   }
   .landing {
     flex-direction: column;
   }
   .nav-links li {
-    opacity: 0;
-  }
-  .nav-links li:nth-child(1) {
-    transition: all 0.5s ease 0.2s;
-  }
-  .nav-links li:nth-child(2) {
-    transition: all 0.5s ease 0.4s;
-  }
-  .nav-links li:nth-child(3) {
-    transition: all 0.5s ease 0.6s;
-  }
-  li.fade {
     opacity: 1;
   }
 
