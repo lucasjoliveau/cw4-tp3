@@ -116,3 +116,30 @@ nav {
     justify-content: center;
     align-items: center;
   }
+
+  // Adaptation pour le format ordinateur
+@media screen and (min-width: $vw-large) {
+  .nav-links {
+    flex-direction: row;
+    background: none;
+    position: initial;
+    height: initial;
+    width: initial;
+
+    clip-path: circle(1000px at 90% -10%);
+    pointer-events: all;
+    margin-top: -1px;
+
+    ul {
+      display: flex;
+
+      li {
+        margin: 0 10px;
+      }
+    }
+
+    input[type=text] {
+      display: none;
+    }
+  }
+}

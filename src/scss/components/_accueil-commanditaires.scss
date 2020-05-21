@@ -1,4 +1,6 @@
 .commanditaires {
+  margin: 50px auto;
+
   h4 {
     color: $color-accent-reg;
     text-align: center;
@@ -17,4 +19,14 @@
 
   }
 
+}
+
+@media screen and (min-width: $vw-large) {
+  .liste-commanditaires {
+    margin: auto;
+
+    li {
+      margin: 27px 61px !important;
+    }
+  }
 }

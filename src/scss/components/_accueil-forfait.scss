@@ -1,10 +1,24 @@
+.forfaits {
+  .swiper-container {
+    height: 588px;
+  }
+
+  h3 {
+    color: $neutre-1;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
 .forfait {
   background-color: $neutre-6;
   border: 0.5px solid #DBD9D8;
+  text-align: left;
+
 
   border-radius: 10px;
   padding: 22px;
-  height: 500px;
+  height: 457px;
   position: initial;
 
   h6 {
@@ -19,12 +33,14 @@
 
   ul {
     padding: 0 0 0 30px;
+
     li {
       font-weight: $fw-light;
       list-style-image: url("../images/i_valider.svg");
       margin: 10px 0;
     }
   }
+
   .btn {
     position: relative;
     bottom: -203px;
@@ -35,5 +51,14 @@
 .forfait-privilege {
   .btn {
     bottom: -133px;
+  }
+}
+
+@media screen and (min-width: $vw-large) {
+  .forfait-privilege {
+    a.btn {
+      bottom: -80px !important;
+    }
+
   }
 }

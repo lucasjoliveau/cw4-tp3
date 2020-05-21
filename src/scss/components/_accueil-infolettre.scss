@@ -34,3 +34,13 @@
 
   }
 }
+
+@media screen and (min-width: $vw-large) {
+  .infolettre {
+    input {
+      width: 420px;
+    }
+
+    border-radius: 40px;
+  }
+}

@@ -7,7 +7,7 @@
 
 
 
-.carousel {
+.swiper-slide {
   width: 100%;
   text-align: center;
   margin-top: 40px;
@@ -32,99 +32,5 @@
     font-size: $fz-normal;
     line-height: $lh-normal;
     margin: 15px 0;
-  }
-}
-
-.carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.carousel-inner > .item {
-  position: relative;
-  display: none;
-  animation: 0.5s ease-in-out;
-}
-
-.carousel-inner > .active,
-.carousel-inner > .next {
-  display: block;
-}
-
-.carousel-inner > .next {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.carousel-inner > .to-left {
-  animation-name: left;
-}
-
-.carousel-inner > .from-right {
-  animation-name: right;
-}
-
-.carousel-inner > .to-right {
-  animation-name: right;
-  animation-direction: reverse;
-}
-
-.carousel-inner > .from-left {
-  animation-name: left;
-  animation-direction: reverse;
-}
-
-.container {
-  margin: 0 auto;
-}
-
-
-.carousel-indicators li {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  cursor: pointer;
-  background-color: $neutre-4;
-  border-radius: 10px;
-  margin: 8px;
-  transition: $global-transition;
-  opacity: 0.3;
-}
-
-.carousel-indicators li.active {
-  background-color: $neutre-3;
-  transition: $global-transition;
-  opacity: 1;
-}
-
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
-@keyframes left {
-  from {
-    left: 0;
-  }
-  to {
-    left: -100%;
-  }
-}
-
-@keyframes right {
-  from {
-    left: 100%;
-  }
-  to {
-    left: 0;
   }
 }

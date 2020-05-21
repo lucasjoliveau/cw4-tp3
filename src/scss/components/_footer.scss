@@ -51,3 +51,15 @@ footer {
     }
   }
 }
+
+@media screen and (min-width: $vw-large) {
+  .petit-texte {
+    text-align: center;
+  }
+
+  .footer-complet {
+    display: flex;
+
+  }
+
+}

@@ -1,0 +1,29 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet-active {
+  background: $neutre-4 !important;
+}
+
+.swiper-pagination-bullet {
+  background: $neutre-4 !important;
+}
+
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: -5px;
+}
+
+
+@media screen and (min-width: $vw-large) {
+  .swiper-pagination {
+    display: none;
+  }
+}

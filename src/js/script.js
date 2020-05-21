@@ -11,73 +11,36 @@ document.addEventListener("DOMContentLoaded", function(event) {
         });
     });
 
+    // Carrousel de base
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
 
+        autoplay: { delay: 3000, },
 
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 50
+            },
 
-
-    // Carousel des artistes
-
-    var items = document.querySelectorAll('.carousel .item');
-    var dots = document.querySelectorAll('.carousel-indicators li');
-    var currentItem = 0;
-    var isEnabled = true;
-
-    function changeCurrentItem(n) {
-        currentItem = (n + items.length) % items.length;
-    }
-
-    function nextItem(n) {
-        hideItem('to-left');
-        changeCurrentItem(n + 1);
-        showItem('from-right');
-    }
-
-    function previousItem(n) {
-        hideItem('to-right');
-        changeCurrentItem(n - 1);
-        showItem('from-left');
-    }
-
-    function goToItem(n) {
-        if (n < currentItem) {
-            hideItem('to-right');
-            currentItem = n;
-            showItem('from-left');
-        } else {
-            hideItem('to-left');
-            currentItem = n;
-            showItem('from-right');
-        }
-    }
-
-    function hideItem(direction) {
-        isEnabled = false;
-        items[currentItem].classList.add(direction);
-        dots[currentItem].classList.remove('active');
-        items[currentItem].addEventListener('animationend', function() {
-            this.classList.remove('active', direction);
-        });
-    }
-
-    function showItem(direction) {
-        items[currentItem].classList.add('next', direction);
-        dots[currentItem].classList.add('active');
-        items[currentItem].addEventListener('animationend', function() {
-            this.classList.remove('next', direction);
-            this.classList.add('active');
-            isEnabled = true;
-        });
-    }
-
-    document.querySelector('.carousel-indicators').addEventListener('click', function(e) {
-        var target = [].slice.call(e.target.parentNode.children).indexOf(e.target);
-        if (target !== currentItem && target < dots.length) {
-            goToItem(target);
-        }
+            1000: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+        },
     });
 
+    // Carrousel de la section à propos
+    var mySwiper2 = new Swiper ('.s2', {
+        pagination: {
+            el: '.swiper-pagination2',
+        },
 
+        autoplay: { delay: 6000 },
 
+        spaceBetween: 50
 
-
+    });
 });

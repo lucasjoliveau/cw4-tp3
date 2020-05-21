@@ -10,9 +10,41 @@
 
   img {
     border-radius: 20px;
-    width: 343px;
+    width: 335px;
   }
 
+  .swiper-container {
+    height: 110%;
+  }
 
+  .swiper-container {
+    height: 577px;
+  }
 
+}
+
+@media screen and (min-width: $vw-large) {
+  .a-propos {
+
+    h6 {
+      position: relative;
+      top: 282px;
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      img {
+        width: 510px;
+        height: 498px;
+      }
+
+      h5 {
+        width: 415px;
+      }
+
+    }
+  }
 }
