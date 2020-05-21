@@ -8,6 +8,11 @@
     font-family: $ff-title;
     color: $neutre-6;
     font-size: 19px;
+
+    &:first-child {
+      margin-top: 15px;
+    }
+
   }
 
 

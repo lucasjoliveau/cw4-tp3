@@ -1,0 +1,55 @@
+.programmation {
+  margin-top: 70px;
+
+  .trier {
+    margin: 31px 0;
+  }
+
+  h3 {
+    text-align: center;
+    color: $neutre-1;
+  }
+
+  .choix-dates {
+    margin-top: 38px;
+    border: 0.5px solid #c1bfbf;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    li {
+      border-bottom: 0.5px solid #c1bfbf;
+      list-style: none;
+      width: 335px;
+      padding: 20px;
+
+      a {
+        text-align: center;
+        display: block;
+        font-family: $ff-title;
+        font-style: normal;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $neutre-4;
+      }
+    }
+
+    li:first-child {
+      border-radius: 14px 14px 0 0;
+    }
+
+    li:last-child {
+      border-radius: 0 0 14px 14px;
+      border-bottom: none;
+    }
+
+  }
+}
+
+.date-active {
+  background-color: $color-accent-reg;
+  a {
+    color: $neutre-6 !important;
+  }
+}
