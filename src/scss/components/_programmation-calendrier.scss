@@ -1,5 +1,73 @@
+.lieu {
+  h6 {
+    text-align: center;
+  }
+}
+
 .tiret-evenement {
-  content: " - ";
-  width: 10px;
-  height: 10px;
+  margin: 0 5px;
+  color: $neutre-3;
+}
+
+.categorie-evenement {
+  padding-left: 17px;
+  text-transform: uppercase;
+  color: $neutre-3;
+}
+
+.titre-evenement {
+  display: flex;
+  color: $neutre-3;
+  text-transform: uppercase;
+  padding-bottom: 0 !important;
+
+  p {
+    font-weight: 500;
+  }
+}
+
+.liste-evenements {
+  li {
+    border: 0.5px solid #c7c5c5;
+    border-radius: 10px;
+    list-style: none;
+    background-color: $neutre-6;
+    margin-bottom: 15px;
+
+    .titre-evenement {
+      padding: 17px;
+    }
+
+    .heure-evenement {
+      background-color: $color-complementaire;
+      border-radius: 10px 10px 0 0;
+      padding: 17px;
+      color: $neutre-1;
+    }
+  }
+}
+
+.btn-sec {
+  background-color: #F4F4F4;
+  border-radius: 7px;
+  width: 200px;
+  margin: 17px 119px;
+  padding: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: $neutre-4 !important;
+    font-family: $ff-title;
+    font-style: normal;
+    font-weight: normal;
+    font-size: rem(13);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  img {
+    width: auto;
+  }
 }
