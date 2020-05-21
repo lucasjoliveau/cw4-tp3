@@ -5,6 +5,10 @@ nav {
   z-index: 30;
   top: 0;
 
+  .btn {
+    margin-top: 105px;
+  }
+
 
   li {
     list-style: none;
@@ -60,7 +64,6 @@ nav {
 
 
 
-@media screen and (max-width: 768px) {
   .line {
     width: 30px;
     height: 2px;
@@ -113,4 +116,3 @@ nav {
     justify-content: center;
     align-items: center;
   }
-}
