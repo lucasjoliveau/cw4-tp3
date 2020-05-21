@@ -1,0 +1,25 @@
+.zone-publicite {
+  background-image: url("../images/bg_bandeau_1.png");
+  background-position: center;
+  background-size: cover;
+
+  p {
+    font-weight: 500;
+    font-family: $ff-title;
+    color: $neutre-6;
+    font-size: 19px;
+  }
+
+
+  div.ligne-surlignement {
+    background-color: $color-complementaire;
+    width: 130px;
+    height: 9px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+
+  .btn {
+    margin: 50px 0;
+  }
+}

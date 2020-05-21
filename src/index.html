@@ -17,7 +17,7 @@
 <!-----------------------------------  Menu de navigation  ----------------------------------->
 
 <nav>
-    <img src="images/logo_fonce.svg" alt="Calonia logo" class="nav-logo">
+    <a href="index.html"><img src="images/logo_fonce.svg" alt="Calonia logo" class="nav-logo"></a>
     <div class="hamburger">
         <div class="line"></div>
         <div class="line"></div>
@@ -53,7 +53,7 @@
 
 
 <!-----------------------------------  HERO  ----------------------------------->
-<section class="hero">
+<section class="hero wrap">
     <img src="images/logo.svg" alt="Calonia" class="logo">
     <h6>Le festival musical de Californie</h6>
     <p>15, 16, 17 juillet 2020</p>
@@ -70,153 +70,167 @@
         <li><a href=""><img src="images/i_youtube.svg" alt="YouTube"></a></li>
     </ul>
 </section>
-<div class="wrapper">
 
-    <!-----------------------------------  Artistes  ----------------------------------->
-    <section class="artistes">
-        <h3>Artistes</h3>
+<!-----------------------------------  Artistes  ----------------------------------->
+<section class="artistes wrap">
+    <h3>Artistes</h3>
 
 
-        <div class="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="container">
-                        <img src="images/artiste_brandon_miles.png" alt="Artiste Brandon Miles">
-                        <p class="author">Brandon Miles</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="container">
-                        <img src="images/artiste_harry_swales.png" alt="Artiste Harry Swales">
-                        <p class="author">Harry Swales</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="container">
-                        <img src="images/artiste_strecha.png" alt="Artiste Střecha">
-                        <p class="author">Střecha</p>
-                    </div>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <img src="images/artiste_brandon_miles.png" alt="Artiste Brandon Miles">
+                    <p class="author">Brandon Miles</p>
                 </div>
             </div>
-            <ol class="carousel-indicators">
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-            </ol>
-        </div>
-    </section>
-
-
-    <!-----------------------------------  À propos  ----------------------------------->
-    <section class="a-propos">
-        <h6>À propos</h6>
-
-        <div class="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="container">
-                        <h5>Le festival de musique le plus prisé au monde</h5>
-                        <img src="images/carrousel_1.png" alt="Image du festival 1">
-                    </div>
+            <div class="item">
+                <div class="container">
+                    <img src="images/artiste_harry_swales.png" alt="Artiste Harry Swales">
+                    <p class="author">Harry Swales</p>
                 </div>
-
-                <div class="item">
-                    <div class="container">
-                        <h5>Regroupant les plus grand artistes</h5>
-                        <img src="images/carrousel_2.png" alt="Image du festival 2">
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="container">
-                        <h5>Dans une ambiance des plus incroyables</h5>
-                        <img src="images/carrousel_3.png" alt="Image du festival 3">
-                    </div>
-                </div>
-
             </div>
-            <ol class="carousel-indicators">
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-            </ol>
+            <div class="item">
+                <div class="container">
+                    <img src="images/artiste_strecha.png" alt="Artiste Střecha">
+                    <p class="author">Střecha</p>
+                </div>
+            </div>
         </div>
-    </section>
+        <ol class="carousel-indicators">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+</section>
 
-    <!-----------------------------------  Forfaits  ----------------------------------->
-    <section class="forfaits">
-        <h3>Forfaits</h3>
-        <div class="forfait">
-            <h6>Forfait d'un jour</h6>
-            <h4>CAD$ 665</h4>
-            <ul>
-                <li>Accès à tout les concerts</li>
-                <li>Accès au camping</li>
-                <li>Accès au stationnement</li>
-            </ul>
-            <div><a href="" class="btn">Acheter</a></div>
+
+<!-----------------------------------  À propos  ----------------------------------->
+<section class="a-propos wrap">
+    <h6>À propos</h6>
+
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <h5>Le festival de musique le plus prisé au monde</h5>
+                    <img src="images/carrousel_1.png" alt="Image du festival 1">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="container">
+                    <h5>Regroupant les plus grand artistes</h5>
+                    <img src="images/carrousel_2.png" alt="Image du festival 2">
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <h5>Dans une ambiance des plus incroyables</h5>
+                    <img src="images/carrousel_3.png" alt="Image du festival 3">
+                </div>
+            </div>
+
         </div>
+        <ol class="carousel-indicators">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+</section>
 
-        <div class="forfait">
-            <h6>Forfait trois jours</h6>
-            <h4>CAD$ 1.899</h4>
-            <ul>
-                <li>Accès à tout les concerts</li>
-                <li>Accès au camping</li>
-                <li>Accès au stationnement</li>
-            </ul>
-            <div><a href="" class="btn">Acheter</a></div>
-        </div>
+<!-----------------------------------  Forfaits  ----------------------------------->
+<section class="forfaits wrap">
+    <h3>Forfaits</h3>
+    <div class="forfait">
+        <h6>Forfait d'un jour</h6>
+        <h4>CAD$ 665</h4>
+        <ul>
+            <li>Accès à tout les concerts</li>
+            <li>Accès au camping</li>
+            <li>Accès au stationnement</li>
+        </ul>
+        <div><a href="" class="btn">Acheter</a></div>
+    </div>
 
-        <div class="forfait forfait-privilege">
-            <h6>Forfait privilège</h6>
-            <h4>CAD$ 7.995</h4>
-            <ul>
-                <li>Lounge privé</li>
-                <li>Chauffeur privé</li>
-                <li>Suite cinq étoiles Rancho Valencia</li>
-                <li>Restaurants et boissons à volonté</li>
-                <li>Voyage en jet privé Gulfstream</li>
-            </ul>
-            <div><a href="" class="btn">Acheter</a></div>
-        </div>
+    <div class="forfait">
+        <h6>Forfait trois jours</h6>
+        <h4>CAD$ 1.899</h4>
+        <ul>
+            <li>Accès à tout les concerts</li>
+            <li>Accès au camping</li>
+            <li>Accès au stationnement</li>
+        </ul>
+        <div><a href="" class="btn">Acheter</a></div>
+    </div>
 
-    </section>
+    <div class="forfait forfait-privilege">
+        <h6>Forfait privilège</h6>
+        <h4>CAD$ 7.995</h4>
+        <ul>
+            <li>Lounge privé</li>
+            <li>Chauffeur privé</li>
+            <li>Suite cinq étoiles Rancho Valencia</li>
+            <li>Restaurants et boissons à volonté</li>
+            <li>Voyage en jet privé Gulfstream</li>
+        </ul>
+        <div><a href="" class="btn">Acheter</a></div>
+    </div>
 
-    <!-----------------------------------  Infolettre  ----------------------------------->
-    <section class="infolettre">
+</section>
+
+<!-----------------------------------  Infolettre  ----------------------------------->
+<section class="infolettre">
+    <div class="wrap">
         <h3>Restez informé !</h3>
         <p>Abonnez-vous à notre infolettre.</p>
 
-            <input type="email" placeholder="Adresse courriel" name="email">
+        <input type="email" placeholder="Adresse courriel" name="email" required>
 
 
         <div><a href="" class="btn" type="submit">Confirmer l’abonnement</a></div>
-    </section>
+    </div>
+</section>
 
 
-    <!-----------------------------------  Commanditaires  ----------------------------------->
-    <section class="commanditaires">
-        <h4>Commanditaires</h4>
-        <ul class="liste-commanditaires">
-            <li><a href=""><img src="images/commanditaire_rancho_valencia.png" alt="Rancho Valencia"></a></li>
-            <li><a href=""><img src="images/commanditaire_glashutte.png" alt="Glashutte"></a></li>
-            <li><a href=""><img src="images/commanditaire_bentley.png" alt="Bentley"></a></li>
-            <li><a href=""><img src="images/commanditaire_gulfstream.png" alt="Gulfstream"></a></li>
-            <li><a href=""><img src="images/commanditaire_ubs.png" alt="UBS"></a></li>
-            <li><a href=""><img src="images/commanditaire_palms.png" alt="PALMS"></a></li>
-        </ul>
-    </section>
-    <!-----------------------------------  Footer  ----------------------------------->
-    <footer>
+<!-----------------------------------  Commanditaires  ----------------------------------->
+<section class="commanditaires wrap">
+    <h4>Commanditaires</h4>
+    <ul class="liste-commanditaires">
+        <li><a href=""><img src="images/commanditaire_rancho_valencia.png" alt="Rancho Valencia"></a></li>
+        <li><a href=""><img src="images/commanditaire_glashutte.png" alt="Glashutte"></a></li>
+        <li><a href=""><img src="images/commanditaire_bentley.png" alt="Bentley"></a></li>
+        <li><a href=""><img src="images/commanditaire_gulfstream.png" alt="Gulfstream"></a></li>
+        <li><a href=""><img src="images/commanditaire_ubs.png" alt="UBS"></a></li>
+        <li><a href=""><img src="images/commanditaire_palms.png" alt="PALMS"></a></li>
+    </ul>
+</section>
+<!-----------------------------------  Footer  ----------------------------------->
+<footer>
+    <div class="wrap">
         <hr class="hr-thin">
         <img src="images/logo_fonce.svg" alt="Logo Calonia" class="footer-logo">
         <p>Calonia est le festival musical le plus prisé du monde. Situé à Los Angeles en Californie, il attire
             plusieurs milliers de personnes chaque années et regroupe les meilleurs artistes du monde entier.</p>
 
 
+        <ul class="social-menu">
+            <li><a href="https://www.instagram.com" target="_blank"><img src="images/i_instagram_dark.svg"
+                                                                         alt="Instagram"></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="images/i_facebook_dark.svg" alt="Facebook"></a>
+            </li>
+            <li><a href="https://www.twitter.com" target="_blank"><img src="images/i_twitter_dark.svg"
+                                                                       alt="Twitter"></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><img src="images/i_youtube_dark.svg"
+                                                                       alt="YouTube"></a></li>
+        </ul>
+
+
         <hr class="hr-thin hr-thin-court">
 
-        <h6>Téléchargez notre application gratuite</h6>
+        <h6 class="wrap">Téléchargez notre application gratuite</h6>
         <ul class="liste-crochet">
             <li>Programmez votre journée</li>
             <li>Accédez à la carte détaillée</li>
@@ -229,8 +243,10 @@
                                                                      alt="Télécharger sur l'App Store"
                                                                      class="badge"></a>
         </div>
+    </div>
 
-        <div class="bas-footer">
+    <div class="bas-footer">
+        <div class="wrap">
             <p class="texte-gras-footer">Projet fictif réalisé dans le cadre du cours
                 Design d’expériences</p>
             <p class="petit-texte-2">Techniques d’intégration multimédia - Cégep Édouard-Montpetit</p>
@@ -241,11 +257,9 @@
                 devront être changées pour des images libres de droits.
             </p>
         </div>
+    </div>
 
-    </footer>
-
-
-</div>
+</footer>
 
 
 </body>

@@ -1,7 +1,10 @@
 .wrapper{
-  width: 343px;
   max-width: $max-width;
   margin: 0 auto;
+}
+
+.wrap {
+  padding: 20px;
 }
 
 // CSS Layout Grid to build the wrapper

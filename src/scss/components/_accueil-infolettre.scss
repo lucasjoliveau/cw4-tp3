@@ -1,10 +1,13 @@
 .infolettre {
-  background-color: $neutre-1;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 56px 0 96px;
+  .wrap {
+    background-color: $neutre-1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 0 96px;
+  }
+
 
   h3 {
     color: $neutre-6;
