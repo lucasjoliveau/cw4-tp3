@@ -73,3 +73,47 @@
   }
 }
 
+.choix-dates li:hover {
+  background: $color-principale-fonce;
+  transition: $global-transition;
+  cursor: pointer;
+}
+
+.choix-dates .date-active:hover {
+  background: $color-accent-reg;
+}
+
+
+
+@media screen and (min-width: $vw-large) {
+  ul.choix-dates {
+    margin: auto;
+    flex-direction: row !important;
+    width: 1005px;
+  }
+
+  .programmation .choix-dates li:first-child {
+    border-radius: 14px 0 0 14px;
+  }
+
+  .choix-dates li {
+    border-bottom: 0!important;
+
+    &:nth-child(2) {
+      border-right: 1px solid #c1bfbf;
+      border-left: 1px solid #c1bfbf;
+    }
+
+    &:last-child {
+      border-radius: 0 14px 14px 0 !important;
+      border-bottom: none;
+    }
+  }
+
+
+
+
+
+
+
+}

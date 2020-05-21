@@ -30,6 +30,10 @@ footer {
     }
   }
 
+  .footer-logo-icon {
+    display: none;
+  }
+
 
   .bas-footer {
     background-color: $color-principale-fonce;
@@ -50,6 +54,43 @@ footer {
       text-align: center;
     }
   }
+
+  .app-mobile {
+    display: none;
+  }
+
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 300;
+  font-size: rem(14);
+  background: $color-principale-fonce;
+
+  .politique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choix-langue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: auto;
+      margin-right: 10px;
+    }
+
+    a {
+      color: $neutre-4 !important;
+      cursor: pointer;
+    }
+  }
+
 }
 
 @media screen and (min-width: $vw-large) {
@@ -57,9 +98,85 @@ footer {
     text-align: center;
   }
 
-  .footer-complet {
-    display: flex;
+  footer {
+    h6 {
+      padding: 0 !important;
+    }
+
+    .hr-thin-court {
+      transform: rotate(90deg);
+    }
 
   }
+
+  .footer-complet {
+    display: flex;
+  }
+
+  .app-mobile {
+    display: flex !important;
+    width: 204px;
+    height: 229px;
+    position: relative;
+    bottom: -55px;
+  }
+
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .details-app {
+    display: flex;
+  }
+
+  .badges {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: end !important;
+    margin-left: 30px;
+  }
+
+  .footer1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-logo-icon {
+    display: flex !important;
+    width: auto;
+    margin-right: 25px;
+  }
+
+  .footer-logo {
+    display: none !important;
+  }
+
+  .desc-reseaux {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+.menu-footer {
+  flex-direction: row;
+
+  .politique {
+    flex-direction: row;
+    a {
+      margin: 0 10px;
+
+      &:hover {
+        color: $neutre-1 !important;
+        cursor: pointer;
+
+      }
+    }
+
+  }
+
+}
+
 
 }

@@ -55,3 +55,24 @@
   }
 }
 
+
+@media screen and (min-width: $vw-large) {
+  .tout-lieux {
+    display: flex;
+    justify-content: center;
+
+    .lieu {
+      margin: 0 2px;
+
+      li {
+        width: 339px;
+      }
+    }
+  }
+
+  .programmation {
+    .zone-publicite {
+      margin-top: 75px;
+    }
+  }
+}

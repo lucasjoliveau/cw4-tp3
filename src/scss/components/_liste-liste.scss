@@ -69,4 +69,89 @@
       align-items: center;
     }
   }
+
+  .motif-liste-artistes {
+    display: none;
+  }
+
+  .motif-liste-artistes-2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $vw-large) {
+  .liste-artistes {
+
+    ul {
+      width: 850px;
+      margin: auto;
+    }
+
+    .bloc-image {
+      width: 263px;
+      height: 359px;
+    }
+
+    .survol-image {
+      width: 263px;
+      height: 359px;
+    }
+
+    img {
+      width: 263px !important;
+      height: 359px;
+    }
+
+    h6 {
+      position: relative;
+      bottom: 66px;
+      color: #fff;
+      left: 20px;
+      display: inline;
+    }
+
+    p {
+      position: relative;
+      bottom: 68px;
+      color: #fff !important;
+      left: 20px;
+    }
+
+    .survol-image:hover {
+      transition: $global-transition;
+      background: rgba(59, 70, 83, 0.4);
+      backdrop-filter: blur(15px);
+    }
+
+    .survol-image:hover + .icone-plus {
+      opacity: 1;
+      transition: $global-transition;
+    }
+
+    ul li {
+      margin: 0;
+    }
+
+  }
+
+  .motif-liste-artistes {
+    display: flex !important;
+    position: absolute;
+    z-index: -1;
+    width: 341.29px !important;
+    height: 683.03px !important;
+    top: 361px;
+    right: 0;
+  }
+
+  .motif-liste-artistes-2 {
+    display: flex !important;
+    position: absolute;
+    z-index: -1;
+    width: 200% !important;
+    //height: 625.28px !important;
+    top: 258px;
+    left: 143px;
+  }
+
 }
