@@ -1,6 +1,8 @@
 $global-transition: all 300ms ease-in-out;
 
-body {}
+html {
+  scroll-behavior: smooth;
+}
 
 p {
   font-weight: $fw-light;
