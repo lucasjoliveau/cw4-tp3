@@ -1,4 +1,14 @@
 $global-transition: all 300ms ease-in-out;
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -25,6 +35,7 @@ p {
   padding: 15px 30px;
   background-color: $color-accent-reg;
   border-radius: 6px;
+
   &:hover {
     border-bottom: none;
     background-color: $color-accent-fonce;
