@@ -43,4 +43,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
         spaceBetween: 50
 
     });
+
 });

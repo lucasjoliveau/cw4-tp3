@@ -1,5 +1,7 @@
 $global-transition: all 300ms ease-in-out;
 
+body {}
+
 p {
   font-weight: $fw-light;
 }
@@ -23,6 +25,8 @@ p {
   border-radius: 6px;
   &:hover {
     border-bottom: none;
+    background-color: $color-accent-fonce;
+    transition: $global-transition;
   }
 }
 

@@ -6,76 +6,89 @@
     <title>Calonia</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700|Signika+Negative:300,400&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
     <script src="js/script.js"></script>
 
 </head>
 <body>
-
 <!-----------------------------------  Menu de navigation  ----------------------------------->
 <nav>
-    <a href="index.html"><img src="images/logo_fonce.svg" alt="Calonia logo" class="nav-logo"></a>
-    <div class="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
-    <div class="nav-links">
-        <ul>
-            <li><a href="programmation.html">Programmation</a></li>
-            <li><a href="fiche-invite.html">Artistes</a></li>
-            <li><a href="">Informations</a></li>
+    <div class="wrapper">
+        <a href="index.html"><img src="images/logo_fonce.svg" alt="Calonia logo" class="nav-logo"></a>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="programmation.html">Programmation</a></li>
+                <li><a href="liste-invite.html">Artistes</a></li>
+                <li><a href="">Informations</a></li>
 
-        </ul>
+            </ul>
 
-        <form action="" class="recherche">
-            <a class="icone-recherche" type="submit"><img src="images/i_recherche.svg" alt="Icône rechercher"></a>
-            <input type="text" placeholder="Rechercher" name="rechercher">
-        </form>
+            <form action="" class="recherche">
+                <a class="icone-recherche" type="submit"><img src="images/i_recherche.svg" alt="Icône rechercher"></a>
+                <input type="text" placeholder="Rechercher" name="rechercher">
+            </form>
 
 
-        <div><a href="" class="btn">Acheter</a></div>
+            <div><a href="" class="btn">Acheter</a></div>
 
-        <ul class="social-menu">
-            <li><a href="https://www.instagram.com" target="_blank"><img src="images/i_instagram_dark.svg"
-                                                                         alt="Instagram"></a></li>
-            <li><a href="https://www.facebook.com" target="_blank"><img src="images/i_facebook_dark.svg" alt="Facebook"></a>
-            </li>
-            <li><a href="https://www.twitter.com" target="_blank"><img src="images/i_twitter_dark.svg"
-                                                                       alt="Twitter"></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><img src="images/i_youtube_dark.svg"
-                                                                       alt="YouTube"></a></li>
-        </ul>
+            <ul class="social-menu">
+                <li><a href="https://www.instagram.com" target="_blank"><img src="images/i_instagram_dark.svg"
+                                                                             alt="Instagram"></a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="images/i_facebook_dark.svg"
+                                                                            alt="Facebook"></a>
+                </li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="images/i_twitter_dark.svg"
+                                                                           alt="Twitter"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="images/i_youtube_dark.svg"
+                                                                           alt="YouTube"></a></li>
+            </ul>
+        </div>
     </div>
 </nav>
 
 
 <!-----------------------------------  Hero  ----------------------------------->
 <section class="hero hero-fiche wrap">
-    <img src="images/artiste_brandon_miles.png" alt="Brandon Miles" class="img-artiste">
-    <h4>Brandon Miles</h4>
-    <h6>Hip-hop</h6>
-    <p>Veniam ad enim voluptate magna ullamco. Sint aliqua officia Lorem fugiat cillum adipisicing magna enim
-        laboris
-        sint velit non. Esse elit sit tempor consequat laborum nulla.</p>
-    <p>Aliqua sit id ipsum aliqua excepteur id aute culpa sint cillum. Cillum ipsum ullamco deserunt nisi nostrud
-        adipisicing sunt veniam cupidatat nisi proident ut. Magna ea veniam et et tempor ullamco voluptate
-        magna.</p>
+    <span class="artiste-cote">Brandon Miles</span>
+    <div class="wrapper">
+        <img src="images/artiste_brandon_miles.png" alt="Brandon Miles" class="img-artiste">
+        <div class="info-artiste">
+            <h4>Brandon Miles</h4>
+            <h6>Hip-hop</h6>
+            <p>Veniam ad enim voluptate magna ullamco. Sint aliqua officia Lorem fugiat cillum adipisicing magna enim
+                laboris
+                sint velit non. Esse elit sit tempor consequat laborum nulla.</p>
+            <p>Aliqua sit id ipsum aliqua excepteur id aute culpa sint cillum. Cillum ipsum ullamco deserunt nisi
+                nostrud.</p>
 
-    <a href="https://www.brandonmiles.com">brandonmiles.com</a>
+            <div class="bloc-info-artiste">
 
-    <ul class="social-menu">
-        <li><a href=""><img src="images/i_instagram.svg" alt="Instagram"></a></li>
-        <li><a href=""><img src="images/i_facebook.svg" alt="Facebook"></a></li>
-        <li><a href=""><img src="images/i_twitter.svg" alt="Twitter"></a></li>
-        <li><a href=""><img src="images/i_youtube.svg" alt="YouTube"></a></li>
-    </ul>
+                <a href="https://www.brandonmiles.com" class="site-artiste">brandonmiles.com</a>
+
+                <ul class="social-menu">
+                    <li><a href=""><img src="images/i_instagram.svg" alt="Instagram"></a></li>
+                    <li><a href=""><img src="images/i_facebook.svg" alt="Facebook"></a></li>
+                    <li><a href=""><img src="images/i_twitter.svg" alt="Twitter"></a></li>
+                    <li><a href=""><img src="images/i_youtube.svg" alt="YouTube"></a></li>
+                </ul>
+            </div>
+            <div class="rectangle-info-artiste"></div>
+            <div class="contour-info-artiste"></div>
+        </div>
+    </div>
 </section>
 
 
 <!-----------------------------------  Prestations  ----------------------------------->
-<section class="prestations wrap">
+<section class="prestations wrap wrapper">
     <h4>Prestations</h4>
     <div class="trier">
         <img src="images/i_trier.svg" alt="Option de tri">
@@ -151,57 +164,138 @@
 
 <!-----------------------------------  BANDEAU PUBLICITAIRE  ----------------------------------->
 <section class="zone-publicite wrap">
-    <p>Osez vivre l'expérience Calonia.</p>
-    <p>Réservez vos billets dès maintenant.</p>
-    <div class="ligne-surlignement"></div>
+    <div class="wrapper">
+        <p>Osez vivre l'expérience Calonia.</p>
+        <p>Réservez vos billets dès maintenant.</p>
+        <div class="ligne-surlignement"></div>
 
-    <div><a href="" class="btn">Voir les forfaits</a></div>
+        <div><a href="" class="btn">Voir les forfaits</a></div>
+    </div>
 </section>
 
 <!-----------------------------------  ARTISTES SIMILAIRES  ----------------------------------->
-<section class="artistes-similaires wrap">
+<section class="artistes-similaires wrap wrapper">
     <h4>Artistes similaires</h4>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/artiste_davinis.png" alt="Artiste Davinis">
+                    <p class="author">Davinis</p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/artiste_harry_swales.png" alt="Artiste Harry Swales">
+                    <p class="author">Harry Swales</p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/artiste_strecha.png" alt="Artiste Střecha">
+                    <p class="author">Střecha</p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/artiste_nilees.png" alt="Artiste Nilees">
+                    <p class="author">Nilees</p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/artiste_strecha.png" alt="Artiste Střecha">
+                    <p class="author">Střecha</p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/artiste_curtis_potvin.png" alt="Artiste Curtis Potvin">
+                    <p class="author">Curtis Potvin</p>
+                </a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
 </section>
 
 
-<!-----------------------------------  FOOTER  ----------------------------------->
+<!-----------------------------------  Footer  ----------------------------------->
 <footer>
-    <div class="wrap">
+    <div class="wrap wrapper footer-complet">
         <hr class="hr-thin">
-        <img src="images/logo_fonce.svg" alt="Logo Calonia" class="footer-logo">
-        <p>Calonia est le festival musical le plus prisé du monde. Situé à Los Angeles en Californie, il attire
-            plusieurs milliers de personnes chaque années et regroupe les meilleurs artistes du monde entier.</p>
+        <div class="footer1">
+            <img src="images/logo_fonce.svg" alt="Logo Calonia" class="footer-logo">
+            <img src="images/logo_icone.png" alt="Logo Calonia" class="footer-logo-icon">
 
-        <ul class="social-menu">
-            <li><a href="https://www.instagram.com" target="_blank"><img src="images/i_instagram_dark.svg"
-                                                                         alt="Instagram"></a></li>
-            <li><a href="https://www.facebook.com" target="_blank"><img src="images/i_facebook_dark.svg" alt="Facebook"></a>
-            </li>
-            <li><a href="https://www.twitter.com" target="_blank"><img src="images/i_twitter_dark.svg"
-                                                                       alt="Twitter"></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><img src="images/i_youtube_dark.svg"
-                                                                       alt="YouTube"></a></li>
-        </ul>
+            <div class="desc-reseaux">
+                <p>Calonia est le festival musical le plus prisé du monde. Situé à Los Angeles en Californie, il attire
+                    plusieurs milliers de personnes chaque années et regroupe les meilleurs artistes du monde
+                    entier.</p>
 
+
+                <ul class="social-menu">
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="images/i_instagram_dark.svg"
+                                                                                 alt="Instagram"></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><img src="images/i_facebook_dark.svg"
+                                                                                alt="Facebook"></a>
+                    </li>
+                    <li><a href="https://www.twitter.com" target="_blank"><img src="images/i_twitter_dark.svg"
+                                                                               alt="Twitter"></a></li>
+                    <li><a href="https://www.youtube.com" target="_blank"><img src="images/i_youtube_dark.svg"
+                                                                               alt="YouTube"></a></li>
+                </ul>
+            </div>
+        </div>
         <hr class="hr-thin hr-thin-court">
 
-        <h6 class="wrap">Téléchargez notre application gratuite</h6>
-        <ul class="liste-crochet">
-            <li>Programmez votre journée</li>
-            <li>Accédez à la carte détaillée</li>
-            <li>Découvrez les alentours</li>
-        </ul>
-        <div class="badges">
-            <a href="https://play.google.com"><img src="images/google-play.svg" alt="Disponible sur Google Play"
-                                                   class="badge"></a>
-            <a href="https://www.apple.com/ca/fr/ios/app-store"><img src="images/app-store.svg"
-                                                                     alt="Télécharger sur l'App Store"
-                                                                     class="badge"></a>
+        <div class="footer2">
+            <h6 class="wrap">Téléchargez notre application gratuite</h6>
+
+            <div class="details-app">
+                <img src="images/app_telephone.png" alt="Application mobile" class="app-mobile">
+                <div class="details-app2">
+                    <ul class="liste-crochet">
+                        <li>Programmez votre journée</li>
+                        <li>Accédez à la carte détaillée</li>
+                        <li>Découvrez les alentours</li>
+                    </ul>
+
+
+                    <div class="badges">
+                        <a href="https://play.google.com"><img src="images/google-play.svg"
+                                                               alt="Disponible sur Google Play"
+                                                               class="badge"></a>
+                        <a href="https://www.apple.com/ca/fr/ios/app-store"><img src="images/app-store.svg"
+                                                                                 alt="Télécharger sur l'App Store"
+                                                                                 class="badge"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-footer">
+        <div class="menu-footer wrapper wrap">
+            <p>© 2020, Calonia</p>
+            <div class="politique">
+                <a>Politique de confidentialité</a>
+                <a>Termes d’utilisations</a>
+                <a>Contact</a>
+            </div>
+
+            <div class="choix-langue">
+                <img src="images/i_canada.png" alt="Drapeau du Canada">
+                <a href="">Français (Canada)</a>
+            </div>
         </div>
     </div>
 
     <div class="bas-footer">
-        <div class="wrap">
+        <div class="wrap wrapper">
             <p class="texte-gras-footer">Projet fictif réalisé dans le cadre du cours
                 Design d’expériences</p>
             <p class="petit-texte-2">Techniques d’intégration multimédia - Cégep Édouard-Montpetit</p>
@@ -213,6 +307,7 @@
             </p>
         </div>
     </div>
+
 </footer>
 
 

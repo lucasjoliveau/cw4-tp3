@@ -37,6 +37,7 @@ nav {
     text-decoration: none;
     font-size: 16px;
   }
+
   .nav-links.open {
     margin: 0;
   }
@@ -63,61 +64,64 @@ nav {
 }
 
 
+.line {
+  width: 30px;
+  height: 2px;
+  background: $neutre-1;
+  margin: 10px 0;
+}
 
-  .line {
-    width: 30px;
-    height: 2px;
-    background: $neutre-1;
-    margin: 10px 0;
-  }
-  nav {
-    position: relative;
-  }
+nav {
+  position: relative;
+}
 
-  .hamburger {
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
-    z-index: 2;
-  }
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 50%;
+  transform: translate(-5%, -50%);
+  z-index: 2;
+}
 
-  .nav-links {
-    position: fixed;
-    background: $neutre-6;
-    height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    clip-path: circle(1px at 90% -10%);
-    transition: all 1s ease-out;
-    pointer-events: none;
-    margin-top: -1px;
-  }
-  .nav-links.open {
-    clip-path: circle(1000px at 90% -10%);
-    pointer-events: all;
-    margin-top: -1px;
-  }
-  .landing {
-    flex-direction: column;
-  }
-  .nav-links li {
-    opacity: 1;
-  }
+.nav-links {
+  position: fixed;
+  background: $neutre-6;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  clip-path: circle(1px at 90% -10%);
+  transition: all 1s ease-out;
+  pointer-events: none;
+  margin-top: -1px;
+}
 
-  .nav-logo {
-    width: 100px;
-  }
+.nav-links.open {
+  clip-path: circle(1000px at 90% -10%);
+  pointer-events: all;
+  margin-top: -1px;
+}
 
-  nav {
-    width: 100vw;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-  }
+.landing {
+  flex-direction: column;
+}
 
-  // Adaptation pour le format ordinateur
+.nav-links li {
+  opacity: 1;
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+nav {
+  width: 100vw;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+// Adaptation pour le format ordinateur
 @media screen and (min-width: $vw-large) {
   .nav-links {
     flex-direction: row;
@@ -142,4 +146,48 @@ nav {
       display: none;
     }
   }
+}
+
+
+@media screen and (min-width: $vw-large) {
+
+  nav {
+    display: flex;
+    height: 80px;
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    div.hamburger {
+      display: none;
+    }
+
+    ul.social-menu {
+      display: none;
+    }
+
+    a.btn {
+      margin: 0 0 0 59px;
+    }
+
+    ul {
+      li {
+        margin: 0 25px !important;
+        border-bottom: 1px solid $neutre-6;
+
+        &:hover {
+          border-bottom: 1px solid $neutre-1;
+          transition: $global-transition;
+        }
+
+      }
+    }
+
+
+  }
+
+
+
 }

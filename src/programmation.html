@@ -6,48 +6,53 @@
     <title>Calonia</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700|Signika+Negative:300,400&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
     <script src="js/script.js"></script>
 
 </head>
 <body>
-
-<!-----------------------------------  MENU DE NAVIGATION  ----------------------------------->
+<!-----------------------------------  Menu de navigation  ----------------------------------->
 <nav>
-    <a href="index.html"><img src="images/logo_fonce.svg" alt="Calonia logo" class="nav-logo"></a>
-    <div class="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
+    <div class="wrapper">
+        <a href="index.html"><img src="images/logo_fonce.svg" alt="Calonia logo" class="nav-logo"></a>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="programmation.html">Programmation</a></li>
+                <li><a href="liste-invite.html">Artistes</a></li>
+                <li><a href="">Informations</a></li>
+
+            </ul>
+
+            <form action="" class="recherche">
+                <a class="icone-recherche" type="submit"><img src="images/i_recherche.svg" alt="Icône rechercher"></a>
+                <input type="text" placeholder="Rechercher" name="rechercher">
+            </form>
+
+
+            <div><a href="" class="btn">Acheter</a></div>
+
+            <ul class="social-menu">
+                <li><a href="https://www.instagram.com" target="_blank"><img src="images/i_instagram_dark.svg"
+                                                                             alt="Instagram"></a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="images/i_facebook_dark.svg"
+                                                                            alt="Facebook"></a>
+                </li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="images/i_twitter_dark.svg"
+                                                                           alt="Twitter"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="images/i_youtube_dark.svg"
+                                                                           alt="YouTube"></a></li>
+            </ul>
+        </div>
     </div>
-    <div class="nav-links">
-        <ul>
-            <li><a href="programmation.html">Programmation</a></li>
-            <li><a href="liste-invite.html">Artistes</a></li>
-            <li><a href="">Informations</a></li>
 
-        </ul>
-
-        <form action="" class="recherche">
-            <a class="icone-recherche" type="submit"><img src="images/i_recherche.svg" alt="Icône rechercher"></a>
-            <input type="text" placeholder="Rechercher" name="rechercher">
-        </form>
-
-
-        <div><a href="" class="btn">Acheter</a></div>
-
-        <ul class="social-menu">
-            <li><a href="https://www.instagram.com" target="_blank"><img src="images/i_instagram_dark.svg"
-                                                                         alt="Instagram"></a></li>
-            <li><a href="https://www.facebook.com" target="_blank"><img src="images/i_facebook_dark.svg" alt="Facebook"></a>
-            </li>
-            <li><a href="https://www.twitter.com" target="_blank"><img src="images/i_twitter_dark.svg"
-                                                                       alt="Twitter"></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><img src="images/i_youtube_dark.svg"
-                                                                       alt="YouTube"></a></li>
-        </ul>
-    </div>
 </nav>
 <!-----------------------------------  FIN DU MENU DE NAVIGATION  ----------------------------------->
 
@@ -63,7 +68,7 @@
     </ul>
 
     <!-----------------------------------  OPTION DE TRI  ----------------------------------->
-    <div class="trier">
+    <div class="trier wrapper">
         <img src="images/i_trier.svg" alt="Option de tri">
         <p>Trier par:</p>
         <ul>
