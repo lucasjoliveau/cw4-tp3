@@ -1,0 +1,17 @@
+.page-404 {
+  svg.animated {
+    width: 90vw;
+  }
+
+}
+
+.bouton-accueil-404 {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: $vw-large) {
+  .page-404 {
+    margin-top: 80px;
+  }
+}
