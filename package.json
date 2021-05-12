@@ -28,6 +28,6 @@
   "dependencies": {
     "gulp-uglify-es": "^2.0.0",
     "hamburgers": "^1.1.3",
-    "swiper": "^5.4.1"
+    "swiper": "^6.5.1"
   }
 }
